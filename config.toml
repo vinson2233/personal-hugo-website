@@ -1,0 +1,46 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Vinson Ciawandy"
+theme = "hugo-lamp"
+[params]
+  mainSections = ["posts"]
+  subtitle = "Data Science | Python | Mathematics"
+  author = "Vinson Ciawandy"
+  logo = "/img/avatar.jpg"
+  description = "Write"
+  paginate = 10
+
+  # Publisher
+  ## adsensePublisher = "ca-pub-XXX"    # Required if you want to include Google Adsense
+  adsenseSlot = "XXX"                   # Required slot to display ads
+  adsenseSlotSticky = "XXX"             # Enables sticky ads feature, value maybe the same with adsenseSlot, remove if you don't want display sticky ads
+
+  # SEO configs
+  seotitle = "Hugo Blog Title (SEO Version)"
+  googleSiteVerification = "google_site_verification_code"    # Google Webmaster
+  msValidate = "bing_site_verification_code"                  # Bing Webmaster
+
+  # Social networks
+  email = "vinsonciawandy@gmail.com"
+  github = "vinson2233"
+  linkedin = "vinsonciawandy"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  identifier = "hugo"
+  url = "/"
+[[menu.main]]
+  name = "About Me"
+  weight = 2
+  identifier = "amp"
+  url = "/about/"
+[[menu.main]]
+  name = "Tags"
+  weight = 3
+  identifier = "tags"
+  url = "/tags/"
