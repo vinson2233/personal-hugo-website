@@ -8,3 +8,5 @@ fields:
 - type: datetime
   name: date
   label: date
+pages:
+- content/post/numpy-and-pandas-numerical-data-types.stability-speed-and-memory-usage.md
