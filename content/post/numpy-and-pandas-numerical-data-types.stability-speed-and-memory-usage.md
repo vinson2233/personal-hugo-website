@@ -1,6 +1,5 @@
 +++
 date = ""
-draft = true
 title = "Numpy and Pandas Numerical Data Types. Stability, Speed and Memory Usage"
 
 +++
